@@ -1,0 +1,121 @@
+/*
+Theme Name: LearningWordPressTheme
+Author: PomiDorka
+Version: 1.0
+*/
+
+body {
+font-family: Arial, sans-serif;
+font-size: 20px;
+color: #247BA0;
+
+}
+/* Links */
+
+article a {
+    color: #FFE066;
+    text-decoration: none;
+}
+
+p{
+    line-height: 2em;
+}
+
+/* General Layout */
+div.container {
+    max-width: 920px;
+    margin:0 auto;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+article.post {
+    border-bottom: 1px solid #70C1B3;
+}
+article.post:last-of-type {
+    border-bottom:none;
+}
+
+/* Header */
+.site-header {
+    border-bottom: 1px solid #F25F5C;
+}
+.site-header h1 a {
+    font-size: 50px;
+    color:#F25F5C;
+    text-decoration: none;
+}
+
+/* Footer */
+.site-footer {
+    margin-top: 30px;
+    border-top: 1px solid #F25F5C;
+}
+
+/* Navigation Menus */
+ .site-nav ul {
+     margin:0;
+     padding: 0;
+ }
+
+ .site-nav ul:before, .site-nav ul:after {content: ""; display: table;}
+ .site-nav ul::after { clear:both;}
+ .site-nav ul { *zoom:1; }
+
+ .site-nav ul li {
+     list-style: none;
+     float:left;
+ }
+
+ /* Site Header Menu */
+  .site-header nav ul li {
+      margin-right: 5px;
+  }
+
+ .site-header nav ul li a:link,
+ .site-header nav ul li a:visited {
+    display: block;
+    padding:10px 18px;
+    border: 1px solid #F25F5C;
+    border-bottom: none;
+    text-decoration: none;
+    color:#F25F5C;
+ }
+
+  .site-header nav ul li a:hover {
+      background-color: #F25F5C;
+      color:#fff;
+  }
+
+
+ .site-header nav ul li.current-menu-item a:link,
+ .site-header nav ul li.current-menu-item a:visited,
+ .site-header nav ul li.current-menu-item a:focus {
+     background-color: #F25F5C;
+     color:#fff;
+     text-decoration: none;
+ }
+
+ /* Footer Menu */
+
+ .site-footer nav ul li {
+     margin-right: 10px;
+     padding-right: 10px;
+     border-right: 1px dotted #247BA0;
+ }
+
+ .site-footer nav ul li a {
+     color: #247BA0;
+     text-decoration: none;
+ }
+
+ .site-footer nav ul li a:hover {
+     color: #F25F5C;
+ }
+
+ /* Page Layput */
+
+article.page h2 {
+    font-size: 40px;
+    color:#FFE066;
+}
